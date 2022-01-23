@@ -14,10 +14,12 @@ enum class PieceStatus
 
 class Piece
 {
-private:
+protected:
 	string		name;
 	PieceStatus status;
 	Location*	location;
+	int			movement_limit;
+	int			movement_options;
 
 public:
 
@@ -34,8 +36,24 @@ public:
 	Status		set_location(Location new_location);
 	Location	get_location();
 
+	Status		set_movement_limit(int new_limit);
+	int			get_movement_limit();
+
+	Status		set_movement_options(int new_options);
+	int			get_movement_options();
+
 	Status moveTo(Location new_location);
 
+};
+
+class Pawn : public Piece
+{
+private:
+	bool is_first_move;
+
+public:
+	Pawn();
+	Status moveTo(Location new_location);
 };
 
 #endif // !chess_piece

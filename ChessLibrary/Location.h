@@ -18,6 +18,13 @@ enum class LocationStatus
 	Empty
 };
 
+enum class MovementType
+{
+	Vertical = 1,
+	Horizontal = 2,
+	Diagonal = 4
+};
+
 class Location
 {
 private:
@@ -40,6 +47,8 @@ public:
 	LocationStatus get_status(void);
 };
 
+int calculate_distance(Location current_location, Location new_location);
+MovementType find_movement_type(Location current_location, Location new_location);
 
 #endif // !chess_location
 

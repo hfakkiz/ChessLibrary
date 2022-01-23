@@ -1,6 +1,9 @@
 #include "Board.h"
 
-Board::Board() {}
+Board::Board()
+{
+	init_locations();
+}
 Board::~Board() {}
 
 void Board::init_locations()

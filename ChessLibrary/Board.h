@@ -13,12 +13,14 @@ private:
 
 public:
 	
+private:
+	void init_locations();
 
 public:
 	Board();
 	~Board();
 
-	void init_locations();
+	
 
 
 

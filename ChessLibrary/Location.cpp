@@ -58,3 +58,33 @@ LocationStatus Location::get_status()
 {
 	return this->status;
 }
+
+int calculate_distance(Location current_location, Location new_location)
+{
+	int raw_distance	= 0;
+	int column_distance = 0;
+
+	raw_distance	= abs(current_location.get_raw() - new_location.get_raw());
+	column_distance = abs(current_location.get_column() - new_location.get_column());
+
+	if (raw_distance >= column_distance)
+		return raw_distance;
+	else
+		return column_distance;
+}
+
+MovementType find_movement_type(Location current_location, Location new_location)
+{
+	int raw_distance	= 0;
+	int column_distance = 0;
+
+	raw_distance	= current_location.get_raw() - new_location.get_raw();
+	column_distance = current_location.get_column() - new_location.get_column();
+
+	if (raw_distance == 0)
+		return MovementType::Horizontal;
+	else if (column_distance == 0)
+		return MovementType::Vertical;
+	else
+		return MovementType::Diagonal;
+}
