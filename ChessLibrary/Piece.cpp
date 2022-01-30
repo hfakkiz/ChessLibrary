@@ -43,6 +43,16 @@ PieceType Piece::get_type()
 	return this->type;
 }
 
+void Piece::set_team_type(TeamType new_team_type)
+{
+	this->team_type = new_team_type;
+}
+
+TeamType Piece::get_team_type()
+{
+	return this->team_type;
+}
+
 Status Piece::set_location(Location new_location)
 {
 	if (new_location.get_raw() == 0 || new_location.get_column() == 0)

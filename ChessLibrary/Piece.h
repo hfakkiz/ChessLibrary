@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "Location.h"
+#include "Team.h"
 
 using namespace std;
 
@@ -31,6 +32,7 @@ protected:
 	Location*	location;
 	int			movement_limit;
 	int			movement_options;
+	TeamType	team_type;
 
 public:
 
@@ -46,6 +48,9 @@ public:
 
 	void		set_type(PieceType new_type);
 	PieceType	get_type();
+
+	void		set_team_type(TeamType new_team_type);
+	TeamType	get_team_type();
 
 	Status		set_location(Location new_location);
 	Location	get_location();
