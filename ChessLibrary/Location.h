@@ -3,8 +3,7 @@
 
 #include <iostream>
 
-#define MAX_RAW_VALUE		8
-#define MAX_COLUMN_VALUE	8
+#define MAX_SQUARE_VALUE	8
 
 enum class Status
 {
@@ -20,9 +19,11 @@ enum class LocationStatus
 
 enum class MovementType
 {
-	Vertical = 1,
-	Horizontal = 2,
-	Diagonal = 4
+	None		= 0,
+	Vertical	= 1,
+	Horizontal	= 2,
+	Diagonal	= 4,
+	L_Shape		= 8
 };
 
 class Location

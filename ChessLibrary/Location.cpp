@@ -19,7 +19,7 @@ Status Location::set_raw(int new_raw)
 {
 	if (new_raw == 0)
 		return Status::Error;
-	else if (new_raw > MAX_RAW_VALUE)
+	else if (new_raw > MAX_SQUARE_VALUE)
 		return Status::Error;
 
 	this->raw = new_raw;
@@ -36,7 +36,7 @@ Status Location::set_column(int new_column)
 {
 	if (new_column == 0)
 		return Status::Error;
-	else if (new_column > MAX_RAW_VALUE)
+	else if (new_column > MAX_SQUARE_VALUE)
 		return Status::Error;
 
 	this->column = new_column;
@@ -85,6 +85,10 @@ MovementType find_movement_type(Location current_location, Location new_location
 		return MovementType::Horizontal;
 	else if (column_distance == 0)
 		return MovementType::Vertical;
-	else
+	else if (abs(raw_distance) == abs(column_distance))
 		return MovementType::Diagonal;
+	else if (((abs(raw_distance) == 1) && (abs(column_distance == 2))) || ((abs(raw_distance) == 2) && (abs(column_distance == 1))))
+		return MovementType::L_Shape;
+	else
+		return MovementType::None;
 }
