@@ -2,30 +2,15 @@
 #define chess_location
 
 #include <iostream>
-#include "Piece.h"
+#include <vector>
+//#include "Piece.h"
+#include "EnumTypes.h"
+
+using namespace std;
 
 #define MAX_SQUARE_VALUE	8
 
-enum class Status
-{
-	Error,
-	Ok
-};
-
-enum class LocationStatus
-{
-	Not_Empty,
-	Empty
-};
-
-enum class MovementType
-{
-	None		= 0,
-	Vertical	= 1,
-	Horizontal	= 2,
-	Diagonal	= 4,
-	L_Shape		= 8
-};
+class Piece;
 
 class Location
 {
@@ -46,7 +31,6 @@ public:
 	int		get_raw( void );
 	Status	set_column(int new_column);
 	int		get_column( void );
-	void	update_status(LocationStatus new_status);
 	Status	update_status(LocationStatus new_status, Piece* new_piece);
 	LocationStatus get_status( void );
 	Piece*	get_piece( void );

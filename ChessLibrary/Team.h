@@ -4,12 +4,9 @@
 #include <vector>
 #include "Location.h"
 #include "Piece.h"
+#include "EnumTypes.h"
 
-enum class TeamType
-{
-	White_Team,
-	Black_Team
-};
+using namespace std;
 
 class Team
 {

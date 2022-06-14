@@ -2,26 +2,12 @@
 #define chess_piece
 
 #include <iostream>
-#include "Location.h"
-#include "Team.h"
+//#include "Location.h"
+#include "EnumTypes.h"
 
 using namespace std;
 
-enum class PieceStatus
-{
-	Alive,
-	Dead
-};
-
-enum class PieceType
-{
-	Pawn = 0,
-	Bishop,
-	Knight,
-	Rook,
-	Queen,
-	King
-};
+class Location;
 
 class Piece
 {
@@ -35,33 +21,31 @@ protected:
 	TeamType	team_type;
 
 public:
-
-public:
 	Piece();
 	~Piece();
 
-	Status		set_name(string new_name);
-	string		get_name();
+	Status				set_name(string new_name);
+	string				get_name();
 
-	void		set_status(PieceStatus new_status);
-	PieceStatus get_status();
+	void				set_status(PieceStatus new_status);
+	PieceStatus			get_status();
 
-	void		set_type(PieceType new_type);
-	PieceType	get_type();
+	void				set_type(PieceType new_type);
+	PieceType			get_type();
 
-	void		set_team_type(TeamType new_team_type);
-	TeamType	get_team_type();
+	void				set_team_type(TeamType new_team_type);
+	TeamType			get_team_type();
 
-	Status		set_location(Location new_location);
-	Location	get_location();
+	Status				set_location(Location& new_location);
+	Location*			get_location();
 
-	Status		set_movement_limit(int new_limit);
-	int			get_movement_limit();
+	Status				set_movement_limit(int new_limit);
+	int					get_movement_limit();
 
-	Status		set_movement_options(int new_options);
-	int			get_movement_options();
+	Status				set_movement_options(int new_options);
+	int					get_movement_options();
 
-	Status		move_to(Location new_location);
+	virtual Status		move_to(Location& new_location);
 
 };
 
@@ -73,7 +57,7 @@ private:
 
 public:
 	Pawn();
-	Status	move_to(Location new_location);
+	Status	move_to(Location& new_location) override;
 	void	turn_attack_mode();
 };
 
@@ -81,7 +65,7 @@ class Bishop : public Piece
 {
 public:
 	Bishop();
-	Status	move_to(Location new_location);
+	Status	move_to(Location& new_location) override;
 
 };
 
@@ -89,7 +73,7 @@ class Knight : public Piece
 {
 public:
 	Knight();
-	Status	move_to(Location new_location);
+	Status	move_to(Location& new_location) override;
 
 };
 
@@ -97,7 +81,7 @@ class Rook : public Piece
 {
 public:
 	Rook();
-	Status	move_to(Location new_location);
+	Status	move_to(Location& new_location) override;
 
 };
 
@@ -105,7 +89,7 @@ class Queen : public Piece
 {
 public:
 	Queen();
-	Status	move_to(Location new_location);
+	Status	move_to(Location& new_location) override;
 
 };
 
@@ -116,7 +100,7 @@ private:
 
 public:
 	King();
-	Status	move_to(Location new_location);
+	Status	move_to(Location& new_location) override;
 
 	void	set_check_status(bool new_check_status);
 	bool	get_check_status();

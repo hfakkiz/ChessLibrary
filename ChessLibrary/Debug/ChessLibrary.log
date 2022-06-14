@@ -1,5 +1,318 @@
 ﻿  Board.cpp
-  Piece.cpp
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(17,7): error C3646: 'king': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(17,11): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(18,8): error C3646: 'queen': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(18,13): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,9): error C3646: 'bishop': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,15): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,18): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,9): error C3646: 'knight': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,15): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,18): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,7): error C3646: 'rook': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,11): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,14): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,7): error C3646: 'pawn': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,11): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,14): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(30,17): error C2061: sözdizimi hatası: tanımlayıcı 'vector'
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,10): error C2143: sözdizimi hatası: ';' eksik ('*' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,10): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,20): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,12): error C3646: 'set_name': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,20): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,37): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,12): error C3646: 'set_location': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,24): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,47): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,13): error C3646: 'get_location': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,25): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,27): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,12): error C3646: 'set_movement_limit': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,30): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,45): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,12): error C3646: 'set_movement_options': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,32): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,49): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,18): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,26): error C2065: 'Location': bildirimi yapılmamış tanımlayıcı
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,35): error C2146: sözdizimi hatası: ')' eksik ('new_location' tanımlayıcısından önce)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Board.cpp(6,44): error C2660: 'Team::init_team': işlev 1 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(30,7): message : 'Team::init_team' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Board.cpp(7,44): error C2660: 'Team::init_team': işlev 1 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(30,7): message : 'Team::init_team' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Board.cpp(26,49): error C2039: 'get_location': bir 'Piece' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(26): message : 'Piece' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Board.cpp(26,5): error C2660: 'check_route': işlev 2 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(58,8): message : 'check_route' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Board.cpp(36,15): error C2039: 'set_location': bir 'Piece' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(26): message : 'Piece' bildirimine bakın
+  Location.cpp
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(17,7): error C3646: 'king': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(17,11): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(18,8): error C3646: 'queen': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(18,13): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,9): error C3646: 'bishop': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,15): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,18): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,9): error C3646: 'knight': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,15): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,18): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,7): error C3646: 'rook': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,11): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,14): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,7): error C3646: 'pawn': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,11): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,14): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(30,17): error C2061: sözdizimi hatası: tanımlayıcı 'vector'
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,10): error C2143: sözdizimi hatası: ';' eksik ('*' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,10): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,20): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,12): error C3646: 'set_name': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,20): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,37): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,12): error C3646: 'set_location': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,24): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,47): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,13): error C3646: 'get_location': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,25): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,27): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,12): error C3646: 'set_movement_limit': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,30): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,45): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,12): error C3646: 'set_movement_options': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,32): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,49): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,18): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,26): error C2065: 'Location': bildirimi yapılmamış tanımlayıcı
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,35): error C2146: sözdizimi hatası: ')' eksik ('new_location' tanımlayıcısından önce)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,48): error C2238: ';' öncesinde beklenmeyen belirteçler
   main.cpp
-  Generating Code...
-  ChessLibrary.vcxproj -> C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\Debug\ChessLibrary.exe
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(17,7): error C3646: 'king': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(17,11): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(18,8): error C3646: 'queen': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(18,13): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,9): error C3646: 'bishop': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,15): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,18): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,9): error C3646: 'knight': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,15): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,18): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,7): error C3646: 'rook': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,11): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,14): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,7): error C3646: 'pawn': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,11): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,14): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(30,17): error C2061: sözdizimi hatası: tanımlayıcı 'vector'
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,10): error C2143: sözdizimi hatası: ';' eksik ('*' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,10): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,20): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,12): error C3646: 'set_name': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,20): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,37): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,12): error C3646: 'set_location': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,24): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,47): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,13): error C3646: 'get_location': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,25): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,27): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,12): error C3646: 'set_movement_limit': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,30): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,45): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,12): error C3646: 'set_movement_options': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,32): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,49): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,18): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,26): error C2065: 'Location': bildirimi yapılmamış tanımlayıcı
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,35): error C2146: sözdizimi hatası: ')' eksik ('new_location' tanımlayıcısından önce)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+  Piece.cpp
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(37,7): error C2143: sözdizimi hatası: ';' eksik ('*' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(37,7): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(37,16): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(51,50): error C2061: sözdizimi hatası: tanımlayıcı 'Piece'
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(51,67): error C2556: 'Status Location::update_status(LocationStatus)': aşırı yüklenen sanal işlev ile 'void Location::update_status(LocationStatus)' arasındaki tek fark dönüş türü
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(50): message : 'Location::update_status' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(51,9): error C2371: 'Location::update_status': yeniden tanımlama; temel türler farklı
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(50): message : 'Location::update_status' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(53,7): error C2143: sözdizimi hatası: ';' eksik ('*' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(53,7): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(53,26): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(58,20): error C2065: 'vector': bildirimi yapılmamış tanımlayıcı
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(58,27): error C2065: 'vector': bildirimi yapılmamış tanımlayıcı
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Location.h(58,42): error C2059: sözdizimi hatası: '>'
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(17,7): error C3646: 'king': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(17,11): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(18,8): error C3646: 'queen': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(18,13): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,9): error C3646: 'bishop': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,15): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(19,18): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,9): error C3646: 'knight': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,15): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(20,18): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,7): error C3646: 'rook': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,11): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(21,14): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,7): error C3646: 'pawn': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,11): error C2143: sözdizimi hatası: ',' eksik ('[' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(22,14): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.h(30,17): error C2061: sözdizimi hatası: tanımlayıcı 'vector'
+  Team.cpp
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,10): error C2143: sözdizimi hatası: ';' eksik ('*' öncesinde)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,10): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(32,20): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(35,11): error C3646: 'team_type': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(35,20): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,12): error C3646: 'set_name': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,20): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(43,37): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(52,24): error C2061: sözdizimi hatası: tanımlayıcı 'TeamType'
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(53,13): error C3646: 'get_team_type': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(53,26): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(53,28): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,12): error C3646: 'set_location': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,24): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(55,47): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,13): error C3646: 'get_location': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,25): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(56,27): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,12): error C3646: 'set_movement_limit': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,30): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(58,45): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,12): error C3646: 'set_movement_options': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,32): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(61,49): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,18): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,26): error C2065: 'Location': bildirimi yapılmamış tanımlayıcı
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,35): error C2146: sözdizimi hatası: ')' eksik ('new_location' tanımlayıcısından önce)
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(64,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(76,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(84,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(92,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(100,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(108,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,9): error C3646: 'move_to': bilinmeyen geçersiz kılma belirticisi
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,16): error C2059: sözdizimi hatası: '('
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(119,48): error C2238: ';' öncesinde beklenmeyen belirteçler
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(11,46): error C2660: 'Piece::set_team_type': işlev 1 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(52,10): message : 'Piece::set_team_type' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(14,45): error C2660: 'Piece::set_team_type': işlev 1 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(52,10): message : 'Piece::set_team_type' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(15,47): error C2660: 'Piece::set_team_type': işlev 1 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(52,10): message : 'Piece::set_team_type' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(16,47): error C2660: 'Piece::set_team_type': işlev 1 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(52,10): message : 'Piece::set_team_type' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(17,43): error C2660: 'Piece::set_team_type': işlev 1 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(52,10): message : 'Piece::set_team_type' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(18,42): error C2660: 'Piece::set_team_type': işlev 1 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(52,10): message : 'Piece::set_team_type' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(19,47): error C2660: 'Piece::set_team_type': işlev 1 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(52,10): message : 'Piece::set_team_type' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(20,47): error C2660: 'Piece::set_team_type': işlev 1 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(52,10): message : 'Piece::set_team_type' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(21,45): error C2660: 'Piece::set_team_type': işlev 1 bağımsız değişken almıyor
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(52,10): message : 'Piece::set_team_type' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(33,18): error C2039: 'set_location': bir 'Pawn' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(68): message : 'Pawn' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(37,17): error C2039: 'set_location': bir 'Rook' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(96): message : 'Rook' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(39,19): error C2039: 'set_location': bir 'Knight' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(88): message : 'Knight' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(41,19): error C2039: 'set_location': bir 'Bishop' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(80): message : 'Bishop' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(43,15): error C2039: 'set_location': bir 'Queen' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(104): message : 'Queen' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(45,14): error C2039: 'set_location': bir 'King' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(112): message : 'King' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(47,19): error C2039: 'set_location': bir 'Bishop' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(80): message : 'Bishop' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(49,19): error C2039: 'set_location': bir 'Knight' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(88): message : 'Knight' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(51,17): error C2039: 'set_location': bir 'Rook' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(96): message : 'Rook' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(58,18): error C2039: 'set_location': bir 'Pawn' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(68): message : 'Pawn' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(62,17): error C2039: 'set_location': bir 'Rook' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(96): message : 'Rook' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(64,19): error C2039: 'set_location': bir 'Knight' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(88): message : 'Knight' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(66,19): error C2039: 'set_location': bir 'Bishop' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(80): message : 'Bishop' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(68,15): error C2039: 'set_location': bir 'Queen' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(104): message : 'Queen' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(70,14): error C2039: 'set_location': bir 'King' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(112): message : 'King' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(72,19): error C2039: 'set_location': bir 'Bishop' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(80): message : 'Bishop' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(74,19): error C2039: 'set_location': bir 'Knight' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(88): message : 'Knight' bildirimine bakın
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Team.cpp(76,17): error C2039: 'set_location': bir 'Rook' üyesi değil
+C:\Users\hfurk\Desktop\Software\Repos\VS2019_Repo\ChessLibrary\ChessLibrary\Piece.h(96): message : 'Rook' bildirimine bakın
+  Kod Üretiliyor...

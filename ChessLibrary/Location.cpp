@@ -1,4 +1,5 @@
 #include "Location.h"
+#include "Piece.h"
 
 Location::Location() : raw(0), column(0), status(LocationStatus::Empty)
 {
@@ -51,16 +52,8 @@ int Location::get_column()
 	return this->column;
 }
 
-void Location::update_status(LocationStatus new_status)
-{
-	this->status = new_status;
-}
-
 Status Location::update_status(LocationStatus new_status, Piece* new_piece)
 {
-	if (new_status != LocationStatus::Not_Empty)
-		return Status::Error;
-
 	this->status = new_status;
 	this->piece = new_piece;
 
@@ -124,9 +117,9 @@ Status check_route(vector<vector<Location>>& board_locations, Location current_l
 
 	if ((movement_type == MovementType::Horizontal) || (movement_type == MovementType::Vertical))
 	{
-		if (movement_type == MovementType::Horizontal)
+		if (movement_type == MovementType::Vertical)
 			distance = current_location.get_raw() - new_location.get_raw();
-		else if (movement_type == MovementType::Vertical)
+		else if (movement_type == MovementType::Horizontal)
 			distance = current_location.get_column() - new_location.get_column();
 
 		if (distance == 1 || distance == -1)
@@ -161,7 +154,7 @@ Status check_route(vector<vector<Location>>& board_locations, Location current_l
 
 		if (raw_distance == 1 || raw_distance == -1)
 		{
-			return Status::Error;
+			return Status::Ok;
 		}
 		else if (((raw_distance < -1) && (column_distance < -1)) || ((raw_distance > 1) && (column_distance > 1)))
 		{
@@ -178,8 +171,8 @@ Status check_route(vector<vector<Location>>& board_locations, Location current_l
 
 			for (int i = 1; i < abs(column_distance); i++)
 			{
-					if (board_locations[raw_start_point + i][column_start_point + i].get_status() == LocationStatus::Not_Empty)
-						return Status::Error;
+				if (board_locations[raw_start_point + i][column_start_point + i].get_status() == LocationStatus::Not_Empty)
+					return Status::Error;
 			}
 		}
 		else if (((raw_distance < -1) && (column_distance > 1)) || ((raw_distance > 1) && (column_distance < -1)))

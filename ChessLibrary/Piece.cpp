@@ -1,4 +1,5 @@
 #include "Piece.h"
+#include "Location.h"
 
 Piece::Piece()
 {
@@ -53,19 +54,20 @@ TeamType Piece::get_team_type()
 	return this->team_type;
 }
 
-Status Piece::set_location(Location new_location)
+Status Piece::set_location(Location& new_location)
 {
 	if (new_location.get_raw() == 0 || new_location.get_column() == 0)
 		return Status::Error;
 
 	this->location = &new_location;
+	new_location.update_status(LocationStatus::Not_Empty, this);
 
 	return Status::Ok;
 }
 
-Location Piece::get_location()
+Location* Piece::get_location()
 {
-	return *(this->location);
+	return this->location;
 }
 
 Status Piece::set_movement_limit(int new_limit)
@@ -104,7 +106,7 @@ int Piece::get_movement_options()
 	return this->movement_options;
 }
 
-Status Piece::move_to(Location new_location)
+Status Piece::move_to(Location& new_location)
 {
 	return this->set_location(new_location);
 }
@@ -121,10 +123,10 @@ Pawn::Pawn()
 	this->movement_options	= (int)MovementType::Vertical;
 	this->movement_limit	= 2;
 	this->is_first_move		= true;
-	this->is_attacking		= true;
+	this->is_attacking		= false;
 }
 
-Status Pawn::move_to(Location new_location)
+Status Pawn::move_to(Location& new_location)
 {
 	int distance = 0;
 	MovementType movement_type;
@@ -137,12 +139,12 @@ Status Pawn::move_to(Location new_location)
 			this->set_movement_limit(1);
 	}
 
-	movement_type = find_movement_type(this->get_location(), new_location);
+	movement_type = find_movement_type(*(this->get_location()), new_location);
 
 	if (((int)movement_type & (this->get_movement_options())) == 0)
 		return Status::Error;
 
-	distance = calculate_distance(this->get_location(), new_location);
+	distance = calculate_distance(*(this->get_location()), new_location);
 
 	if (distance == 0)
 		return Status::Error;
@@ -161,6 +163,8 @@ Status Pawn::move_to(Location new_location)
 		this->set_movement_options((int)MovementType::Vertical);
 	}
 	
+	this->get_location()->update_status(LocationStatus::Empty, nullptr);
+
 	return this->set_location(new_location);
 }
 
@@ -180,14 +184,16 @@ Bishop::Bishop()
 	this->movement_options = (int)MovementType::Diagonal;
 }
 
-Status Bishop::move_to(Location new_location)
+Status Bishop::move_to(Location& new_location)
 {
 	MovementType movement_type;
 
-	movement_type = find_movement_type(this->get_location(), new_location);
+	movement_type = find_movement_type(*(this->get_location()), new_location);
 
 	if (((int)movement_type & (this->get_movement_options())) == 0)
 		return Status::Error;
+
+	this->get_location()->update_status(LocationStatus::Empty, nullptr);
 
 	return this->set_location(new_location);
 }
@@ -203,14 +209,16 @@ Knight::Knight()
 	this->movement_options = (int)MovementType::L_Shape;
 }
 
-Status Knight::move_to(Location new_location)
+Status Knight::move_to(Location& new_location)
 {
 	MovementType movement_type;
 
-	movement_type = find_movement_type(this->get_location(), new_location);
+	movement_type = find_movement_type(*(this->get_location()), new_location);
 
 	if (((int)movement_type & (this->get_movement_options())) == 0)
 		return Status::Error;
+
+	this->get_location()->update_status(LocationStatus::Empty, nullptr);
 
 	return this->set_location(new_location);
 }
@@ -226,14 +234,16 @@ Rook::Rook()
 	this->movement_options = (int)MovementType::Horizontal | (int)MovementType::Vertical;
 }
 
-Status Rook::move_to(Location new_location)
+Status Rook::move_to(Location& new_location)
 {
 	MovementType movement_type;
 
-	movement_type = find_movement_type(this->get_location(), new_location);
+	movement_type = find_movement_type(*(this->get_location()), new_location);
 
 	if (((int)movement_type & (this->get_movement_options())) == 0)
 		return Status::Error;
+
+	this->get_location()->update_status(LocationStatus::Empty, nullptr);
 
 	return this->set_location(new_location);
 }
@@ -249,14 +259,16 @@ Queen::Queen()
 	this->movement_options = (int)MovementType::Horizontal | (int)MovementType::Vertical | (int)MovementType::Diagonal;
 }
 
-Status Queen::move_to(Location new_location)
+Status Queen::move_to(Location& new_location)
 {
 	MovementType movement_type;
 
-	movement_type = find_movement_type(this->get_location(), new_location);
+	movement_type = find_movement_type(*(this->get_location()), new_location);
 
 	if (((int)movement_type & (this->get_movement_options())) == 0)
 		return Status::Error;
+
+	this->get_location()->update_status(LocationStatus::Empty, nullptr);
 
 	return this->set_location(new_location);
 }
@@ -274,23 +286,25 @@ King::King()
 	this->check_status = false;
 }
 
-Status King::move_to(Location new_location)
+Status King::move_to(Location& new_location)
 {
 	int distance = 0;
 	MovementType movement_type;
 
-	movement_type = find_movement_type(this->get_location(), new_location);
+	movement_type = find_movement_type(*(this->get_location()), new_location);
 
 	if (((int)movement_type & (this->get_movement_options())) == 0)
 		return Status::Error;
 
-	distance = calculate_distance(this->get_location(), new_location);
+	distance = calculate_distance(*(this->get_location()), new_location);
 
 	if (distance == 0)
 		return Status::Error;
 
 	if (distance > this->get_movement_limit())
 		return Status::Error;
+
+	this->get_location()->update_status(LocationStatus::Empty, nullptr);
 
 	return this->set_location(new_location);
 }
