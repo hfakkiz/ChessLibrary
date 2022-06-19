@@ -14,7 +14,7 @@ void Board::init_locations()
 	{
 		for (int j = 0; j < MAX_SQUARE_VALUE; j++)
 		{
-			this->locations[i][j] = Location((i + 1), (j + 1));
+			this->locations[i][j] = Location((i), (j));
 		}
 	}
 }
@@ -37,15 +37,16 @@ Status Board::move_to(Piece& target_piece, Location& destination)
 			if (target_pawn.move_to(destination) == Status::Error)
 				return Status::Error;
 
-			destination.get_piece()->set_status(PieceStatus::Dead);
+			//destination.get_piece()->set_status(PieceStatus::Dead);
 			//destination.get_piece()->set_location(Location(0, 0));
 			//destination.update_status(LocationStatus::Not_Empty, &target_pawn);
 		}
 		else
 		{
 			// TO DO: Ýlgili taþýn move to fonksiyonu çaðýrýlacak.
-
-			destination.get_piece()->set_status(PieceStatus::Dead);
+			if (target_piece.move_to(destination) == Status::Error)
+				return Status::Error;
+			//destination.get_piece()->set_status(PieceStatus::Dead);
 			//destination.get_piece()->set_location(Location(0, 0));
 			//destination.update_status(LocationStatus::Not_Empty, &target_piece);
 		}

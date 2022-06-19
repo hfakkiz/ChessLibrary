@@ -55,7 +55,7 @@ void Team::init_team(vector<vector<Location>>& board_locations)
 	{
 		for (int i = 0; i < SIZEOFARRAY(this->pawn); i++)
 		{
-			this->pawn[i].set_location(board_locations[6][MAX_SQUARE_VALUE - 1 - i]);
+			this->pawn[i].set_location(board_locations[6][MAX_SQUARE_VALUE - i]);
 			//board_locations[6][MAX_SQUARE_VALUE - 1 - i].update_status(LocationStatus::Not_Empty, &(this->pawn[i]));
 		}
 

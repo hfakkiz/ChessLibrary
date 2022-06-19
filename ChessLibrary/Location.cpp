@@ -1,7 +1,7 @@
 #include "Location.h"
 #include "Piece.h"
 
-Location::Location() : raw(0), column(0), status(LocationStatus::Empty)
+Location::Location() : raw(-1), column(-1), status(LocationStatus::Empty)
 {
 	this->piece = (Piece*)malloc(sizeof(Piece));
 }
@@ -20,7 +20,7 @@ Location::Location(int new_raw, int new_column)
 
 Status Location::set_raw(int new_raw)
 {
-	if (new_raw == 0)
+	if (new_raw < 0)
 		return Status::Error;
 	else if (new_raw > MAX_SQUARE_VALUE)
 		return Status::Error;
@@ -37,7 +37,7 @@ int Location::get_raw()
 
 Status Location::set_column(int new_column)
 {
-	if (new_column == 0)
+	if (new_column < 0)
 		return Status::Error;
 	else if (new_column > MAX_SQUARE_VALUE)
 		return Status::Error;
@@ -98,7 +98,7 @@ MovementType find_movement_type(Location current_location, Location new_location
 		return MovementType::Vertical;
 	else if (abs(raw_distance) == abs(column_distance))
 		return MovementType::Diagonal;
-	else if (((abs(raw_distance) == 1) && (abs(column_distance == 2))) || ((abs(raw_distance) == 2) && (abs(column_distance == 1))))
+	else if (((abs(raw_distance) == 1) && (abs(column_distance) == 2)) || ((abs(raw_distance) == 2) && (abs(column_distance) == 1)))
 		return MovementType::L_Shape;
 	else
 		return MovementType::None;
@@ -143,8 +143,16 @@ Status check_route(vector<vector<Location>>& board_locations, Location current_l
 
 		for (int i = 1; i < abs(distance); i++)
 		{
-			if (board_locations[raw_start_point + i][column_start_point].get_status() == LocationStatus::Not_Empty)
-				return Status::Error;
+			if (movement_type == MovementType::Vertical)
+			{
+				if (board_locations[raw_start_point + i][column_start_point].get_status() == LocationStatus::Not_Empty)
+					return Status::Error;
+			}
+			else if (movement_type == MovementType::Horizontal)
+			{
+				if (board_locations[raw_start_point][column_start_point + i].get_status() == LocationStatus::Not_Empty)
+					return Status::Error;
+			}
 		}
 	}
 	else if (movement_type == MovementType::Diagonal)

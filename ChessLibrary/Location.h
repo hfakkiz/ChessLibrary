@@ -8,7 +8,7 @@
 
 using namespace std;
 
-#define MAX_SQUARE_VALUE	8
+#define MAX_SQUARE_VALUE	7
 
 class Piece;
 

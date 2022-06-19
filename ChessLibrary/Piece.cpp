@@ -56,7 +56,7 @@ TeamType Piece::get_team_type()
 
 Status Piece::set_location(Location& new_location)
 {
-	if (new_location.get_raw() == 0 || new_location.get_column() == 0)
+	if (new_location.get_raw() == -1 || new_location.get_column() == -1)
 		return Status::Error;
 
 	this->location = &new_location;
